@@ -1,0 +1,645 @@
+@charset "UTF-8";
+*{
+	font-family:  Verdana, sans-serif,Geneva;
+	font-size: 100%;
+	padding: 0px;
+	margin: 0px;
+	
+}
+body{
+	width: 100%;
+	float: left;
+	min-width: 1800px;	
+	max-width: 1920px;
+}
+#top{
+	width: 100%;
+	z-index: -1;
+	height: 250px;
+}
+#back {
+	min-width:1800px;
+	max-width: 1920px;
+	margin-top: 0%;
+	position:absolute;
+	width: 100%;
+	padding-bottom:253px;
+	background: -webkit-linear-gradient(rgba(255,255,255,0),rgba(0,0,0,1) );
+	background: -o-linear-gradient(rgba(255,255,255,0),rgba(0,0,0,1) ); 
+	background: -moz-linear-gradient(rgba(255,255,255,0),rgba(0,0,0,1) );
+	background: linear-gradient(rgba(255,255,255,0),rgba(0,0,0,1) );
+}
+
+nav.horizontal {
+	margin-top:0px;
+	width: 100%;
+	
+}
+nav.horizontal ul li{
+	border-bottom-style:solid;
+	border-bottom-color:silver;
+	background: black;
+	display:block;
+	width: 20%;
+	float: left;
+	text-align: center;
+	padding-bottom: 5px;
+}
+nav.horizontal ul li a{
+	margin-top:6px;
+	font-weight:bold;
+	color: white;
+	font-size: x-large;
+	text-decoration: none;
+}
+nav.horizontal ul li a img{
+	height: 25px;
+	width: 25px;
+	vertical-align:middle;
+}
+nav.horizontal ul li a:hover{
+	background: rgb(51,51,51);
+	outline: solid 2px;
+	outline-color: rgb(215,181,151);
+}
+nav.vertical{
+	float:left;
+	background:black;
+	float:left;
+	width: 25%;
+	height: 1000px;
+	
+}
+nav.vertical ul li{
+	background: black;
+	display: block;
+	text-align: center;
+	padding: 90px;
+	margin-right: 5px;
+
+}
+nav.vertical ul li a{
+	font-weight:bold;
+	color: white;
+	font-size: large;
+	text-decoration: none;
+	margin-left: 5px;
+	text-shadow:6px 4px 6px gray;
+}
+nav.vertical ul li:hover{
+	background: rgb(51,51,51);
+	outline: solid 2px;
+	outline-color: rgb(215,181,151);
+}
+nav.vertical ul li img{
+	width: 35px;
+	height: 35px;
+	vertical-align:middle;
+}
+#batmanhead{
+	margin-top:10px;
+	margin-left:20%;
+	width: 60%;
+}
+#supermanhead{
+	margin-top:10px;
+	margin-left:25%;
+	width: 50%;
+}
+#wonderwomanhead{
+	margin-top:10px;
+	margin-left:16%;
+	width: 68%;
+}
+#mainsection{
+	float:left;
+	width: 100%;
+	height: 1100px;
+	background: black;
+}
+#video{
+	float:left;
+	width: 35%;
+	background: black;
+	height: 1000px;
+}
+#video table{
+	margin-top:50px;
+	margin-left: 20%;
+}
+#video table td{
+	text-align: center;
+	color: white;
+}
+#logo{
+	margin-top:70px;
+	margin-left: 50%;
+	height: 100px;
+	width:100px;
+}
+video{
+	margin-top:150px;
+	margin-left: 10%;
+	width: 90%;
+}
+#main{
+	float:left;
+	width: 65%;
+	height:1000px;
+	background-image: url("jl.png");
+}
+#backgroundmain{
+	float:left;
+	width: 100%;
+	background: black;
+	height: 1617px;
+}
+#backgroundtext{
+	float:left;
+	width:38%;
+	margin-top:150px;
+	margin-left:5%;
+	font-size: medium;
+	border-style: dotted;
+	border-color: #c0c0c0;
+	border-radius: 30px;
+	border-width: thick;
+	background: rgba(233,236,168,0.2);
+}
+#backgroundtext h1{
+	text-align:center;
+	margin-top:25px;
+	text-shadow:10px 10px 10px gray;
+	margin-left:40px;
+	margin-right:20px;
+	color: white;
+	font-size: xx-large;
+}
+#backgroundtext blockquote{
+	margin-left:5%;
+	margin-right:5%;
+	margin-top:50px;
+	letter-spacing:3px;
+	color: #d0e0a0;
+	text-indent: 50px;
+	font-size: 20px;
+}
+#blacksuperman{
+	margin-top:270px;
+	margin-left:6%;
+	float:left;
+	width: 23%;
+}
+#justicelogo{
+	margin-top:245px;
+	float:left;
+	clear:left;
+	width: 27%;
+}
+#justiceleaguecomic{
+	width: 100%;
+} 
+#superman{
+	background-image: url("supermanbackground.jpg");
+	height:1000px;
+	width: 75%;
+	float: left;
+}
+
+#superman img{
+	float:left;
+	height:980px;
+	width: 14%;
+	border-style: outset;
+	border-color: #0c85f3;
+	border-width: 10px;
+}
+#supermantext{
+	margin-left:3%;
+	float:left;
+	margin-top:25px;
+	color:#d50000;
+	border-style: dotted;
+	border-radius:50px;
+	border-width:3px;
+	border-color: #d0d1d5;
+	width: 37%;
+	background: rgba(233,236,168,0.2);
+}
+#supermantext h1{
+	opacity:0.8;
+	text-shadow:10px 10px 10px gray;
+	text-align: center;
+	font-style: italic;
+	font-size: xx-large;
+	margin-top:50px;
+}
+#supermantext blockquote{
+	margin-left:50px;
+	margin-right:50px;
+	margin-top:50px;
+	color: rgba(255,255,255,0.8);
+	font-size: 19px;
+	text-indent: 30px;
+	letter-spacing: 2px;
+	height: 800px;
+}
+#supermanpower{
+	margin-left:3%;
+	float:left;
+	margin-top:25px;
+	width: 40%;
+	background: rgba(233,236,168,0.2);
+	border-radius: 50px;
+	border-color: #d0d1d5;
+	border-style: dotted;
+}
+#supermanpower h1{
+	font-style: italic;
+	text-shadow:10px 10px 10px gray;
+	font-size:xx-large;
+	text-align: center;
+	color:#d50000;
+	padding: 20px;
+}
+#supermanpower table{
+	margin-top:25px;
+	color:silver;
+	margin-left: 25%;
+	font-size: xx-large;
+	margin-bottom: 50px;
+}
+#batman img{
+	float:left;
+	height: 980px;
+	width: 14%;
+	border-style: outset;
+	border-color: #e6e8ea;
+	border-width: 10px;
+}
+#batman{
+	margin-left:25%;
+	background-image: url("batmanbackground.png");
+	height:1000px;
+	width: 75%;
+}
+#batmantext{
+	float:left;
+	margin-top:25px;
+	margin-left: 1%;
+	border-style: dotted;
+	border-radius:50px;
+	border-width:3px;
+	border-color: #d0d1d5;
+	width: 40%;
+	background: rgba(233,236,168,0.2);	
+}
+#batmantext h1{
+	margin-top:20px;
+	font-style: italic;
+	text-shadow:10px 10px 10px gray;
+	font-size:xx-large;
+	text-align: center;
+	color:#c2c2d1;
+	padding-top: 20px;
+}
+#batmantext p{
+	font-style: italic;
+	margin-top:20px;
+	margin-left: 20%;
+	font-size: large;
+	color: #c0c0c0;
+}
+#batmantext blockquote{
+	margin:8%;
+	padding-top:10px;
+	color: #d0e0a0;
+	font-size: 20px;
+	text-indent: 40px;
+	letter-spacing: 2px;
+	padding-bottom: 15px;
+	height: 700px;
+}
+#wonderwoman{
+	float:left;
+	background: black;
+	height:1000px;
+	width: 75%;	
+}
+#wonderwomanborder{
+	float:left;
+	height: 980px;
+	width: 14%;
+	border-style: outset;
+	border-color: #9fffff;
+	border-width: 10px;
+}
+#wonderwomanbackground{
+	float:right;
+	width:40%;
+	height: 1000px;
+}
+#wonderwomantext{
+	float:left;
+	width: 40%;
+	margin-top:25px;
+	margin-left: 3%;
+	border-style: dotted;
+	border-radius:50px;
+	border-width:3px;
+	border-color: #d0d1d5;
+	background: rgba(109,213,231,0.3);
+	height: 930px;
+}
+#wonderwomantext h1{
+	margin-top:20px;
+	font-style: italic;
+	text-shadow:10px 10px 10px gray;
+	font-size:xx-large;
+	text-align: center;
+	color:#f9f900;
+	opacity:0.8;
+	padding-top: 20px;
+}
+#wonderwomantext p{
+	font-style: italic;
+	margin-top:20px;
+	margin-left: 40%;
+	font-size: large;
+	color:#f9f900;
+}
+#wonderwomantext blockquote{
+	margin:8%;
+	padding-top:10px;
+	color: #ff8040;
+	font-size: 24px;
+	text-indent: 40px;
+	letter-spacing: 2px;
+	padding-bottom: 15px;
+	height: 700px;
+}
+/* joker part */
+#vertical{
+	float:left;
+	width: 25%;
+	height: 1000px;
+	background: black;
+}
+#vertical a{
+	font-weight:bold;
+	color: white;
+	font-size: x-large;
+	text-decoration: none;
+	margin-left: 5px;
+	text-shadow:6px 4px 6px gray;
+}
+#vertical img{
+	width: 200px;
+	height: 200px;
+	cursor: pointer;
+	transition: all 0.6s;
+}
+#vertical img:hover{
+	transform:scale(1.4);
+}
+#vertical li{
+	text-align: center;
+}
+#vertical h1{
+	color: white;
+	font-size: x-large;
+	margin-top: 100px;
+	border-style: outset;
+	border-width: thick;
+	border-color: rgb(208,47,99);
+	text-align: center;
+	background-color: rgba(147,197,238,0.8);
+	text-shadow:10px 10px 10px #000000;
+	padding: 10px;
+	font-weight: bolder;
+	border-radius: 50px;
+	width: 80%;
+	margin-left: 10%;
+}
+#jokerlist {
+	margin-top: 100px;
+}
+#darksidelist{
+	margin-top: 100px;
+}
+#vertical ul li:hover{
+	background: rgb(51,51,51);
+	outline: solid 2px;
+	outline-color: rgb(215,181,151);
+}
+#vertical ul li{
+	margin-right: 5px;
+}
+#jokermain{
+	float:left;
+	width: 75%;
+	height: 1000px;
+	background-image: url("jokerbackground.jpg");
+}
+#jokermain img{
+	float:left;
+	height: 980px;
+	width: 20%;
+	border-style: outset;
+	border-color: #3cfd31;
+	border-width: 10px;
+}
+#jokertext{
+	float:left;
+	width: 40%;
+	margin-top:25px;
+	margin-left: 3%;
+	border-style: dotted;
+	border-radius:50px;
+	border-width:3px;
+	border-color: #d0d1d5;
+	background: rgba(0,223,0,0.3);
+	height: 930px;
+}
+#jokertext h1{
+	margin-top:20px;
+	font-style: italic;
+	text-shadow:10px 10px 10px gray;
+	font-size:xx-large;
+	text-align: center;
+	color:#f9f900;
+	opacity:0.8;
+	padding-top: 20px;
+}
+#jokertext blockquote{
+	margin:8%;
+	padding-top:10px;
+	color: #c8c8c8;
+	font-size: 16px;
+	text-indent: 40px;
+	letter-spacing: 2px;
+	padding-bottom: 15px;
+	height: 700px;
+}
+#darkseidmain{
+	margin-left:25%;
+	width: 75%;
+	height: 1000px;
+	background: #ffb062;
+}
+#darkseidtext{
+	margin-top:15px;
+	margin-left:2%;
+	width: 95%;
+	height: 550px;
+	border-style: inset;
+	border-color: #ffca95;
+	border-width: 10px;
+	float: left;
+	background:aqua;
+	background: rgba(155,226,144,0.5);
+}
+#darkseidtext h1{
+	opacity:0.9;
+	text-shadow:10px 10px 10px gray;
+	color:#3f71f3;
+	margin-top:25px;
+	clear: right;
+	text-align: center;
+	font-size: xx-large;
+	
+}
+#darkseidtext blockquote{
+	color:#800000;
+	font-size:18px;
+	letter-spacing:1px;
+	margin:2%;
+	width: 45%;
+	float: left;
+	text-indent: 20px;
+}
+figure {
+	margin-top:15px;
+	height:400px;
+	float: left;
+	width:100%;
+	background-color: rgb(149,91,72);
+}
+figure div {
+	overflow: auto;
+	white-space: nowrap;
+}
+figure div img {
+	margin: 10px;
+	border-radius: 10px;
+	width: 200px;
+	cursor: pointer;
+	transition: all 0.6s;
+}
+figure div img:hover{
+	transform:scale(1.4);
+}
+figure figcaption{
+	background: white;
+	font-size: 80%;
+	font-style: italic;
+	text-align: center;
+	margin-top: 5px;
+}
+cite {
+	color: white;
+}
+cite a {
+	color: silver;
+	text-decoration: none;
+}
+#mysteryperson{
+	margin-top:25px;
+	margin-left:45%;
+	width: 10%;
+}
+#Yourherotext{
+	width: 50%;
+	margin-left: 25%;
+	margin-top: 10px;
+}
+#Yourherotext>p{
+	text-align:center;
+	font-size:x-large;
+	color: #ffff00;
+}
+#Yourherotext h1{
+	text-align:center;
+	font-size:xx-large;
+	color: red;
+}
+#form{
+	width: 100%;
+}
+#yourheroform{
+	height: 570px;
+}
+label {
+	color: white;
+	width: 35%;
+    display:inline-block;
+    text-align: left;
+    float: left;
+}
+input{
+	width:60%;
+}
+legend {
+	color: white;
+}
+#yourheroform>section{
+	float:left;
+	margin-top:5px;
+	margin-bottom:5px;
+	display: block;
+	width: 60%;
+	margin-left: 20%;
+}
+fieldset.option {
+	float:left;
+	width: 60%;
+}
+fieldset p{
+	color: white;
+}
+#becomesuperman{
+	width: 40%;
+	margin-left: 30%;
+}
+#yoursection{
+	float:left;
+	width: 100%;
+	height: 1370px;
+	background: black;	
+}
+#button{
+	margin:10px;
+	margin-left: 45%;
+}
+#button input {
+	width: 75px;
+}
+input:focus:valid {
+	background: rgb(220,225,220) url("go.png") bottom right no-repeat;
+}
+input:focus:invalid {
+	background: red url("stop.png") bottom right no-repeat;
+}
+hr {
+	width: 100%;
+	color: silver;
+}
+cite {
+	margin-top:20px;
+	float: left;
+}
+audio{
+	margin-top:6px;
+	margin-right:40%;
+	float: right;
+}
